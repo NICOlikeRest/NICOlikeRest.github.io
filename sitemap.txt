@@ -2,5 +2,6 @@ https://nicolikerest.github.io/2022/07/31/git%E4%BD%BF%E7%94%A8/
 https://nicolikerest.github.io/link/index.html
 https://nicolikerest.github.io/categories/index.html
 https://nicolikerest.github.io/tags/index.html
-https://nicolikerest.github.io/2022/07/31/hello-world/
+https://nicolikerest.github.io/2022/07/27/ns-3%E4%BD%BF%E7%94%A8/
+https://nicolikerest.github.io/2022/06/02/%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/
 https://nicolikerest.github.io/
