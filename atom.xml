@@ -6,7 +6,7 @@
   <link href="https://nicolikerest.github.io/atom.xml" rel="self"/>
   
   <link href="https://nicolikerest.github.io/"/>
-  <updated>2022-07-28T16:03:33.352Z</updated>
+  <updated>2022-08-24T06:32:42.938Z</updated>
   <id>https://nicolikerest.github.io/</id>
   
   <author>
@@ -17,20 +17,16 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>git使用</title>
     <link href="https://nicolikerest.github.io/2022/08/19/git%E4%BD%BF%E7%94%A8/"/>
     <id>https://nicolikerest.github.io/2022/08/19/git%E4%BD%BF%E7%94%A8/</id>
     <published>2022-08-19T02:32:11.044Z</published>
-    <updated>2022-07-28T16:03:33.352Z</updated>
+    <updated>2022-08-24T06:32:42.938Z</updated>
     
     <content type="html"><![CDATA[<h1 id="git使用"><a href="#git使用" class="headerlink" title="git使用"></a>git使用</h1><p>初始化仓库</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><p>工作区 –》 暂存区 </p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><p>注：. 是通配符</p><p> 暂存区  –》 厂库</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &#x27;注释&#x27;</span><br></pre></td></tr></table></figure><p>查看状态</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure><p>查看提交记录</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git-log</span><br></pre></td></tr></table></figure><p>版本退回</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard 数字</span><br></pre></td></tr></table></figure><p>查看分支</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure><p>创建并切换分支</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b 分支名</span><br></pre></td></tr></table></figure><p>分支合并</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge 分支名</span><br></pre></td></tr></table></figure><p>切换分支</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout 分支名</span><br></pre></td></tr></table></figure><p>clone到本地仓库</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 网络地址 本地文件夹</span><br></pre></td></tr></table></figure><p>拉取远程仓库修改并合并</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure><p>推送本地修改到远程仓库</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git push [--set-upstream] origin 分支名</span><br><span class="line">例：</span><br><span class="line">git push --set-upstream origin master</span><br></pre></td></tr></table></figure><p>注：–set-upstream 表示绑定 </p><p>当前分支绑定到 远程master</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h1 id=&quot;git使用&quot;&gt;&lt;a href=&quot;#git使用&quot; class=&quot;headerlink&quot; title=&quot;git使用&quot;&gt;&lt;/a&gt;git使用&lt;/h1&gt;&lt;p&gt;初始化仓库&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td c</summary>
-      
+    <summary type="html">git使用</summary>
     
     
     
@@ -38,11 +34,11 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>sflow使用心得</title>
     <link href="https://nicolikerest.github.io/2022/08/19/sflow/"/>
     <id>https://nicolikerest.github.io/2022/08/19/sflow/</id>
     <published>2022-08-19T02:32:07.776Z</published>
-    <updated>2022-08-12T15:29:04.622Z</updated>
+    <updated>2022-08-24T06:32:42.932Z</updated>
     
     <content type="html"><![CDATA[<h2 id="使用sflow的rest-API时"><a href="#使用sflow的rest-API时" class="headerlink" title="使用sflow的rest API时"></a>使用sflow的rest API时</h2><p>在windows本地发<strong>get请求</strong>到虚拟机ubantu，发现请求不上，<strong>是虚拟机的网卡问题</strong></p><p>在virtualbox系统设置中网络，改为桥接网络</p><p>解决地址</p><p><a href="https://blog.csdn.net/weixin_39505091/article/details/107167723?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107167723-blog-121328480.pc_relevant_aa&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107167723-blog-121328480.pc_relevant_aa&amp;utm_relevant_index=2">https://blog.csdn.net/weixin_39505091/article/details/107167723?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107167723-blog-121328480.pc_relevant_aa&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-107167723-blog-121328480.pc_relevant_aa&amp;utm_relevant_index=2</a></p><p>这样在postman、xshell中都能连接了</p><p>呜呜呜呜呜呜呜浪费我一天时间</p><h2 id="安装sflow在git上的app时"><a href="#安装sflow在git上的app时" class="headerlink" title="安装sflow在git上的app时"></a>安装sflow在git上的app时</h2><p>下载地址：<a href="https://sflow-rt.com/download.php">https://sflow-rt.com/download.php</a></p><p>如何安装</p><ul><li>进入目录</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd sflow-rt</span><br></pre></td></tr></table></figure><ul><li>安装对应的app</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./get-app.sh sflow-rt browse-flows</span><br></pre></td></tr></table></figure><p> browse-flows就是对应的APP</p><ul><li>重启即可</li></ul><h2 id="怎么使用route"><a href="#怎么使用route" class="headerlink" title="怎么使用route"></a>怎么使用route</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">route -n #查看所有</span><br><span class="line"></span><br><span class="line">### 如何删</span><br><span class="line">Destination     Gateway         Genmask         Flags Metric Ref    Use Iface</span><br><span class="line">192.168.120.0   0.0.0.0         255.255.255.0   U     0      0        0 eth0</span><br><span class="line">192.168.0.0     192.168.120.1   255.255.0.0     UG    0      0        0 eth0</span><br><span class="line">###</span><br><span class="line"></span><br><span class="line"># 删第一条</span><br><span class="line">route del -net 192.168.120 netmask 255.255.255.0 </span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -79,11 +75,11 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>ryu+mininet血泪教训</title>
     <link href="https://nicolikerest.github.io/2022/08/19/ryu+mininet%E5%AE%89%E8%A3%85%E8%A1%80%E6%B3%AA%E6%95%99%E8%AE%AD/"/>
     <id>https://nicolikerest.github.io/2022/08/19/ryu+mininet%E5%AE%89%E8%A3%85%E8%A1%80%E6%B3%AA%E6%95%99%E8%AE%AD/</id>
     <published>2022-08-19T02:32:07.750Z</published>
-    <updated>2022-08-18T05:34:30.390Z</updated>
+    <updated>2022-08-24T06:32:42.943Z</updated>
     
     <content type="html"><![CDATA[<h1 id="ryu-mininet血泪教训"><a href="#ryu-mininet血泪教训" class="headerlink" title="ryu+mininet血泪教训"></a>ryu+mininet血泪教训</h1><p>使用的是<strong>ubantu20版本</strong>，因为ryu后面的一些功能不支持python2，之前使用的ubantu16不支持python3，进行了重装</p><ul><li>ubantu安装教程</li></ul><p><a href="https://zhuanlan.zhihu.com/p/355314438">https://zhuanlan.zhihu.com/p/355314438</a></p><h2 id="ryu问题-—版本ryu4-34"><a href="#ryu问题-—版本ryu4-34" class="headerlink" title="ryu问题 —版本ryu4.34"></a>ryu问题 —版本ryu4.34</h2><ul><li>安装参考链接：</li></ul><p><a href="https://blog.csdn.net/qq_42282103/article/details/126273926">https://blog.csdn.net/qq_42282103/article/details/126273926</a></p><ul><li>注：pip install -r tools&#x2F;pip-requires很容易安装失败，使用清华的镜像源</li></ul><p><a href="https://blog.csdn.net/qq_43527191/article/details/108059276">https://blog.csdn.net/qq_43527191/article/details/108059276</a></p><p>在命令后添加参数<code>-i &lt;镜像源地址&gt;</code>，如：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pip install -r tools/pip-requires -i https://mirrors.aliyun.com/pypi/simple</span><br></pre></td></tr></table></figure><ul><li>pip安装失败 — 网络问题</li></ul><p>注：进行换源，换阿里源直接起飞</p><p><a href="https://blog.csdn.net/weixin_62529383/article/details/124004470">https://blog.csdn.net/weixin_62529383/article/details/124004470</a></p><h2 id="mininet问题"><a href="#mininet问题" class="headerlink" title="mininet问题"></a>mininet问题</h2><ul><li>运行miniedit.py时报错<strong>ImportError: No module named mininet.log</strong></li></ul><p><a href="https://www.cnblogs.com/fjlinww/p/13388427.html">https://www.cnblogs.com/fjlinww/p/13388427.html</a></p><ul><li>报错：“ImportError No module named setuptools</li></ul><p><a href="https://blog.csdn.net/m0_37774696/article/details/84328916">https://blog.csdn.net/m0_37774696/article/details/84328916</a></p><p>setuptools下载地址：<a href="https://pypi.python.org/packages/1d/c0/57c129132059297460922eec3cabf3016e792455adf9db8c5b144db67d69/setuptools-21.0.0.zip#md5=1da14a897449567b4e151d7461a0c829">https://pypi.python.org/packages/1d/c0/57c129132059297460922eec3cabf3016e792455adf9db8c5b144db67d69/setuptools-21.0.0.zip#md5=1da14a897449567b4e151d7461a0c829</a></p><h2 id="未解决问题"><a href="#未解决问题" class="headerlink" title="未解决问题"></a>未解决问题</h2><p>在NAT模式下，主机不能访问虚拟机，虚拟机可上网</p><p>改为仅主机模式，可以访问虚拟机，虚拟机不可上网</p>]]></content>
     
