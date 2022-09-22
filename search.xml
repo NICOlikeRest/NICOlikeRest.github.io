@@ -12,6 +12,12 @@
       
       
       
+        <tags>
+            
+            <tag> 工具使用 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -25,18 +31,30 @@
       
       
       
+        <tags>
+            
+            <tag> 实验 </tag>
+            
+        </tags>
+      
     </entry>
     
     
     
     <entry>
-      <title></title>
+      <title>ryu中的gui界面使用</title>
       <link href="/2022/08/19/ryu%E2%80%94%E2%80%94gui%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
       <url>/2022/08/19/ryu%E2%80%94%E2%80%94gui%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
       
         <content type="html"><![CDATA[<h1 id="ryu——gui使用指南"><a href="#ryu——gui使用指南" class="headerlink" title="ryu——gui使用指南"></a>ryu——gui使用指南</h1><p>1，进入ryu的app目录下，运行【</p><p>sudo ryu-manager .&#x2F;gui_topology&#x2F;gui_topology.py .&#x2F;simple_switch_13.py –observe-links</p><p>】，运行起来之后，可以看到拓扑发现页面的所在的端口号和ip地址<br>2.打开miniedit，运行拓扑，注意控制器为remote controller，默认6633端口，ip就是控制器所在的ip地址。<br>3.打开并刷新页面，即可看到拓扑<br>4.若刷新页面看不到拓扑图像，则需要到github上获取最新的ryu的app目录，并替换原有的ryu的app目录，可能是ryu的app代码没有更新导致的。</p><p>5，在miniedit中的switch中的属性设置为Open vSwtich Kernel Mode,如果gui页面为空的话</p><p>新加入的python文件，由于ryu编译文件中还没有，要重新编译</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ryu</span><br><span class="line">sudo python setup.py install</span><br><span class="line">sudo ryu-manager XXXX.py #就能用了</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 实验 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -51,6 +69,12 @@
       
       
       
+        <tags>
+            
+            <tag> 实验 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -64,6 +88,12 @@
       
       
       
+        <tags>
+            
+            <tag> 实验 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -76,6 +106,12 @@
         <content type="html"><![CDATA[<ul><li>Ryu</li></ul><p>控制器一定要设置成remote</p><p>呜呜呜呜呜呜呜呜呜都是泪</p><p>要√上cli 如果mn控制栏跳不出来的话</p><ul><li>Mininet</li></ul><p>自定义ifpermulti 一定要 </p><p>~&#x2F;mininet&#x2F;util&#x2F;install.sh -n</p><p>这样执行，md重装了一遍</p><p>miniedit需要root才能run</p><p>而且topo画完记得保存，否则呜呜呜呜</p><p>出现Error creating interface pair</p><p>重复打开要sudo mn -c 清楚缓存</p><ul><li>系统</li></ul><p>内核奔溃了</p><p>在设置里把性能调强</p><p>cpu改2核 显存改32MB</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 实验 </tag>
+            
+        </tags>
       
     </entry>
     
