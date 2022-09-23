@@ -6,7 +6,7 @@
   <link href="https://nicolikerest.github.io/atom.xml" rel="self"/>
   
   <link href="https://nicolikerest.github.io/"/>
-  <updated>2022-09-22T07:00:09.232Z</updated>
+  <updated>2022-09-23T05:12:02.860Z</updated>
   <id>https://nicolikerest.github.io/</id>
   
   <author>
@@ -15,6 +15,76 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux中使用pycharm进行调试</title>
+    <link href="https://nicolikerest.github.io/2022/09/23/%E9%85%8D%E7%BD%AEpycharm%E8%B0%83%E8%AF%95/"/>
+    <id>https://nicolikerest.github.io/2022/09/23/%E9%85%8D%E7%BD%AEpycharm%E8%B0%83%E8%AF%95/</id>
+    <published>2022-09-23T05:10:35.859Z</published>
+    <updated>2022-09-23T05:12:02.860Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1，首先选择Python2"><a href="#1，首先选择Python2" class="headerlink" title="1，首先选择Python2"></a>1，首先选择Python2</h3><p><img src="C:\Users\12563\AppData\Roaming\Typora\typora-user-images\image-20220911152918694.png" alt="image-20220911152918694"></p><p><img src="C:\Users\12563\AppData\Roaming\Typora\typora-user-images\image-20220911152941216.png" alt="image-20220911152941216"></p><p><img src="C:\Users\12563\AppData\Roaming\Typora\typora-user-images\image-20220911153005071.png" alt="image-20220911153005071"></p><p><img src="C:\Users\12563\AppData\Roaming\Typora\typora-user-images\image-20220911153017044.png" alt="image-20220911153017044"></p><p><img src="C:\Users\12563\AppData\Roaming\Typora\typora-user-images\image-20220911153109158.png" alt="image-20220911153109158"></p><p>选择Python2</p><h3 id="2，因为mininet需要用到root权限"><a href="#2，因为mininet需要用到root权限" class="headerlink" title="2，因为mininet需要用到root权限"></a>2，因为mininet需要用到root权限</h3><p>教程如下</p><p><a href="https://cloud.tencent.com/developer/article/1405812">https://cloud.tencent.com/developer/article/1405812</a></p><p><img src="C:\Users\12563\AppData\Roaming\Typora\typora-user-images\image-20220911153005071.png" alt="image-20220911153005071"></p><p><img src="C:\Users\12563\AppData\Roaming\Typora\typora-user-images\image-20220911153017044.png" alt="image-20220911153017044"></p><p>在user&#x2F;bin下找到sudo_python</p><h1 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成~"></a>大功告成~</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1，首先选择Python2&quot;&gt;&lt;a href=&quot;#1，首先选择Python2&quot; class=&quot;headerlink&quot; title=&quot;1，首先选择Python2&quot;&gt;&lt;/a&gt;1，首先选择Python2&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;C:\Users\12563\A</summary>
+      
+    
+    
+    
+    
+    <category term="实验" scheme="https://nicolikerest.github.io/tags/%E5%AE%9E%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>服务器部署</title>
+    <link href="https://nicolikerest.github.io/2022/09/23/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2/"/>
+    <id>https://nicolikerest.github.io/2022/09/23/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2/</id>
+    <published>2022-09-23T05:10:35.854Z</published>
+    <updated>2022-09-23T05:12:02.852Z</updated>
+    
+    <content type="html"><![CDATA[<p>腾讯云网址：<a href="https://cloud.tencent.com/">https://cloud.tencent.com/</a></p><h3 id="第一步，服务器设置"><a href="#第一步，服务器设置" class="headerlink" title="第一步，服务器设置"></a>第一步，服务器设置</h3><ul><li>如何部署，教程如下：</li></ul><p><a href="https://blog.csdn.net/weixin_47343544/article/details/123012590">https://blog.csdn.net/weixin_47343544/article/details/123012590</a></p><p>注：</p><p>公网地址：42.192.38.83</p><p>root密码：NICOnico123</p><ul><li>第一次root登录，教程如下：</li></ul><p><a href="https://zhuanlan.zhihu.com/p/393589998">https://zhuanlan.zhihu.com/p/393589998</a></p><ul><li>mysql启动可能会报错，教程如下：</li></ul><p><a href="https://blog.csdn.net/qq_43290288/article/details/118852753?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-118852753-blog-103850782.pc_relevant_multi_platform_whitelistv4&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-118852753-blog-103850782.pc_relevant_multi_platform_whitelistv4&amp;utm_relevant_index=1">https://blog.csdn.net/qq_43290288/article/details/118852753?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118852753-blog-103850782.pc_relevant_multi_platform_whitelistv4&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118852753-blog-103850782.pc_relevant_multi_platform_whitelistv4&amp;utm_relevant_index=1</a></p><h3 id="第二步，网页部署"><a href="#第二步，网页部署" class="headerlink" title="第二步，网页部署"></a>第二步，网页部署</h3><ul><li>静态网页部署，教程如下：</li></ul><p><a href="https://blog.csdn.net/DAZZPNB/article/details/119509246">https://blog.csdn.net/DAZZPNB/article/details/119509246</a></p><ul><li>使用nignx时，可能热重启没用，应该先将其关闭，再打开</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//stop</span><br><span class="line">nginx -s stop</span><br><span class="line">//start</span><br><span class="line">nginx</span><br></pre></td></tr></table></figure><h3 id="第三步，域名设置"><a href="#第三步，域名设置" class="headerlink" title="第三步，域名设置"></a>第三步，域名设置</h3><ul><li>域名解析教程：</li></ul><p><a href="https://blog.csdn.net/ba476/article/details/123290616">https://blog.csdn.net/ba476/article/details/123290616</a></p><p>注：</p><p>域名为 <a href="http://www.fntl.club/">www.fntl.club</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;腾讯云网址：&lt;a href=&quot;https://cloud.tencent.com/&quot;&gt;https://cloud.tencent.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;第一步，服务器设置&quot;&gt;&lt;a href=&quot;#第一步，服务器设置&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    
+    <category term="工具使用" scheme="https://nicolikerest.github.io/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pytorch安装</title>
+    <link href="https://nicolikerest.github.io/2022/09/23/pytorch%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/"/>
+    <id>https://nicolikerest.github.io/2022/09/23/pytorch%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/</id>
+    <published>2022-09-23T05:10:35.832Z</published>
+    <updated>2022-09-23T05:12:02.845Z</updated>
+    
+    <content type="html"><![CDATA[<p>1，先下载anaconda </p><p><a href="http://www.anaconda.com/">www.anaconda.com</a></p><p>进行换源</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</span><br></pre></td></tr></table></figure><p>创建一个虚拟环境</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n pytorch python=3.9</span><br></pre></td></tr></table></figure><p>激活虚拟环境</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">activate pytorch</span><br></pre></td></tr></table></figure><p>2，然后有独显的话查看最高支持什么版本的cuda，去cuda安装对应版本</p><p>注：选择CUDA版本，要么10.2要么11.3要么11.6</p><p>教程网址如下：</p><p><a href="https://blog.csdn.net/Elon15/article/details/125678410">https://blog.csdn.net/Elon15/article/details/125678410</a></p><p>3，安装pytorch：<a href="https://pytorch.org/get-started/locally/">https://pytorch.org/get-started/locally/</a></p><p>装pytorch时选择自己安装的对应cuda版本</p><p>选择stable(1.12.1)–windows–pip—python–CUDAxx.x，然后复制该语句</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113</span><br></pre></td></tr></table></figure><p>粘贴到anaconda中</p><p>4，在anaconda prompt下激活虚拟环境后，安装官网底下的pip代码，安装好后，进入pycharm中，在右下角环境中设置成这个虚拟环境，然后就ok了</p><p><a href="https://blog.csdn.net/weixin_61405201/article/details/125717678">https://blog.csdn.net/weixin_61405201/article/details/125717678</a></p><p>注：选择对应的虚拟环境中的python.exe文件</p><p>如，pytorch文件夹下的python.exe文件</p><p>验证代码</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"></span><br><span class="line">flag = torch.cuda.is_available()</span><br><span class="line"><span class="built_in">print</span>(flag)</span><br><span class="line"></span><br><span class="line">ngpu= <span class="number">1</span></span><br><span class="line"><span class="comment"># Decide which device we want to run on</span></span><br><span class="line">device = torch.device(<span class="string">&quot;cuda:0&quot;</span> <span class="keyword">if</span> (torch.cuda.is_available() <span class="keyword">and</span> ngpu &gt; <span class="number">0</span>) <span class="keyword">else</span> <span class="string">&quot;cpu&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(device)</span><br></pre></td></tr></table></figure><p>结果</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="literal">True</span></span><br><span class="line">cuda:<span class="number">0</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1，先下载anaconda &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.anaconda.com/&quot;&gt;www.anaconda.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;进行换源&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="工具使用" scheme="https://nicolikerest.github.io/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>git使用</title>
