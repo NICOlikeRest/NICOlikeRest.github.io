@@ -1,5 +1,5 @@
-https://nicolikerest.github.io/2022/09/23/%E9%85%8D%E7%BD%AEpycharm%E8%B0%83%E8%AF%95/
 https://nicolikerest.github.io/2022/09/23/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2/
+https://nicolikerest.github.io/2022/09/23/%E9%85%8D%E7%BD%AEpycharm%E8%B0%83%E8%AF%95/
 https://nicolikerest.github.io/2022/09/23/pytorch%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/
 https://nicolikerest.github.io/2022/08/19/ryu+mininet%E5%AE%89%E8%A3%85%E8%A1%80%E6%B3%AA%E6%95%99%E8%AE%AD/
 https://nicolikerest.github.io/2022/08/19/ryu%E2%80%94%E2%80%94gui%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/
